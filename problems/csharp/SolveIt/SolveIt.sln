@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveIt.Easy", "SolveIt.Eas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveIt.Easy.Tests", "SolveIt.Easy.Tests\SolveIt.Easy.Tests.csproj", "{DC60DCC2-646D-46BD-95EA-3B1FE1253463}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveIt.Middle", "SolveIt.Middle\SolveIt.Middle.csproj", "{AA64E628-B134-4339-AADD-E46C21FF554F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{DC60DCC2-646D-46BD-95EA-3B1FE1253463}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC60DCC2-646D-46BD-95EA-3B1FE1253463}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC60DCC2-646D-46BD-95EA-3B1FE1253463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA64E628-B134-4339-AADD-E46C21FF554F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA64E628-B134-4339-AADD-E46C21FF554F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA64E628-B134-4339-AADD-E46C21FF554F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA64E628-B134-4339-AADD-E46C21FF554F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

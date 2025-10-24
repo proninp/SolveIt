@@ -4,7 +4,6 @@ public sealed class SumOfTwo
 {
     public int[] TwoSum(int[] nums, int target)
     {
-        // 1, 2, 3, 4; target = 5
         var map = new Dictionary<int, int>();
         for (var i = 0; i < nums.Length; i++)
         {
