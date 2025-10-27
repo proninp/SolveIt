@@ -4,25 +4,23 @@ public class TheLongestPalindromeSolution
 {
     public int LongestPalindrome(string s)
     {
-        var vocabulary = new Dictionary<char, int>();
-        foreach (var c in s)
+        Span<int> vocabularyFreq = stackalloc int[128];
+        foreach (var ch in s)
         {
-            vocabulary.TryAdd(c, 0);
-            vocabulary[c]++;
+            vocabularyFreq[ch]++;
         }
 
         var pairs = 0;
-        var isSingleExists = false;
-        foreach (var kvp in vocabulary)
+        var hasOdd = false;
+        foreach (var freq in vocabularyFreq)
         {
-            pairs += kvp.Value > 1 ? kvp.Value / 2 : 0;
-            ;
-            if (kvp.Value % 2 != 0)
+            pairs += freq / 2;
+            if ((freq & 1) == 1)
             {
-                isSingleExists = true;
+                hasOdd = true;
             }
         }
 
-        return pairs * 2 + (isSingleExists ? 1 : 0);
+        return pairs * 2 + (hasOdd ? 1 : 0);
     }
 }
