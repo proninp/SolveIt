@@ -1,4 +1,4 @@
-﻿namespace SolveIt.Easy._3219;
+﻿namespace SolveIt.Middle._3219;
 
 public class LRUCache
 {
