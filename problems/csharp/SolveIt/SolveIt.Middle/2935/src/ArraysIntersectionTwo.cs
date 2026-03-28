@@ -1,4 +1,4 @@
-﻿namespace SolveIt.Middle._2935.src;
+﻿namespace SolveIt.Middle._2935;
 
 public sealed class ArraysIntersectionTwo
 {

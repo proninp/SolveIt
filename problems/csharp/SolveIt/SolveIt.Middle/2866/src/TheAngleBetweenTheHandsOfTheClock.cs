@@ -1,4 +1,4 @@
-﻿namespace SolveIt.Middle._2866.src;
+﻿namespace SolveIt.Middle._2866;
 
 public class TheAngleBetweenTheHandsOfTheClock
 {
