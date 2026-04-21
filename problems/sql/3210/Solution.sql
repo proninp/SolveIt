@@ -1,5 +1,6 @@
-SELECT e.name
-       , b.bonus
-FROM employees e
-LEFT JOIN bonuses b ON e.emp_id = b.emp_id
-WHERE COALESCE(b.bonus,0) < 1000
+SELECT user_id
+       , dttm
+FROM user_logs
+GROUP BY user_id
+       , dttm
+HAVING COUNT(*) > 1
